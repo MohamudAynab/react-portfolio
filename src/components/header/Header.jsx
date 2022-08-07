@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import OUTSIDE from '../../assets/outside.png'
+import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 
 
@@ -15,8 +15,8 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
 
-        <div className="outside">
-          <img src={OUTSIDE} alt="outside" />
+        <div className="me">
+          <img src={ME} alt="me" />
         </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>

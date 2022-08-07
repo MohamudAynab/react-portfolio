@@ -86,7 +86,7 @@ a {
     transition: var(--transition);
 }
 a:hover {
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 .btn {
